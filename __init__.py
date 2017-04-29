@@ -1,5 +1,5 @@
 #!/usr/bin/python
 
-from config.Config import Config
+from mail.MailLog import MailLog
 
-print(Config.get("mail.receiver"))
+MailLog.sendLog('/Users/pedro.galan/.flickr-uploader.log')

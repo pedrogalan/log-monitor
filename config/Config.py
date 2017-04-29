@@ -22,7 +22,7 @@ def createDefaultProperties():
     file.write("mail.smtp.password=change-me\n")
     file.write("mail.receiver=Mr. Change Me <change@me.com>\n")
     file.write("mail.sender=Mr. Change Me <change@me.com>\n\n")
-    file.write("log.file.location=/change/me.log")
+    file.write("log.file.locations=/change/me.log,/also/change/this.log")
     file.close()
 
 class Config:
