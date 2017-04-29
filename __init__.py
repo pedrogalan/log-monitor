@@ -1,5 +1,5 @@
 #!/usr/bin/python
 
-from mail.MailLog import MailLog
+from LogMonitor import LogMonitor
 
-MailLog.sendLog('/Users/pedro.galan/.flickr-uploader.log')
+LogMonitor.check()
