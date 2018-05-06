@@ -15,6 +15,7 @@ class Mail:
     @staticmethod
     def __configureServer():
        mailserver = smtplib.SMTP(Config.get('mail.smtp.host'))
+       mailserver.starttls()
        mailserver.login(Config.get('mail.smtp.username'), Config.get('mail.smtp.password'))
        return mailserver
 
