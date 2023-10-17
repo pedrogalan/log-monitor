@@ -1,5 +1,5 @@
 #!/usr/bin/python
 
-from LogMonitor import LogMonitor
+from logmonitor.LogMonitor import LogMonitor
 
 LogMonitor.check()

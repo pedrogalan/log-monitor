@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../config')
 from config.Config import Config
-from Mail import Mail
+from . Mail import Mail
 
 class MailLog:
 
